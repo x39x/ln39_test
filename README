@@ -1,4 +1,4 @@
-## ln1
+== ln1
 
 1. 新建配置文件夹
 2. 正确ln配置文件
@@ -6,21 +6,21 @@
 4. 配置源文件不存在
 5. utils init_ln39
 
-## ln2
+== ln2
 
 1. 存在错误的软链接
 2. disable ln
 
-## fn
+== fn
 
 1. before_ln
 2. after_ln
 
-## hang
+== hang
 
 1. exist hang ln file
 
-## bak
+== bak
 
 1. 备份文件夹
 2. 备份文件
