@@ -1,0 +1,27 @@
+## ln1
+
+1. 新建配置文件夹
+2. 正确ln配置文件
+3. 正确ln文件夹
+4. 配置源文件不存在
+5. utils init_ln39
+
+## ln2
+
+1. 存在错误的软链接
+2. disable ln
+
+## fn
+
+1. before_ln
+2. after_ln
+
+## hang
+
+1. exist hang ln file
+
+## bak
+
+1. 备份文件夹
+2. 备份文件
+3. 新建配置路径中的文件夹
