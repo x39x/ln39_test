@@ -1,3 +1,6 @@
+update:
+	git submodule update --remote --rebase
+	git commit -a -m "update ln39"
 ln1: 
 	@make clean
 	@LN1=1 python3 config.py
