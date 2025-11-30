@@ -59,22 +59,20 @@ if utils.env_exists("BACKUP"):
 # NOTE: utils
 
 if utils.env_exists("UTILS"):
+    # env
     print(f"""get env: SHELL
 {utils.get_env("SHELL")}
 """)
-
-    print(f"""get os name:
-{utils.get_os_name()}
-""")
-
-    print(f"""path for: 
-{utils.path_for(linux="linux", macos="MacOS")}
-""")
-
     print(f"""env env_exists: SHELL
 {utils.env_exists("SHELL")}
 """)
-
     print(f"""env equal:  SHELL /bin/zsh
 {utils.env_equals("SHELL", "/bin/zsh")}
+""")
+    # os
+    print(f"""get os name:
+{utils.get_os_name()}
+""")
+    print(f"""path for: 
+{utils.path_for(linux="linux", macos="MacOS")}
 """)
