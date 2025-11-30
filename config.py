@@ -76,3 +76,7 @@ if utils.env_exists("UTILS"):
     print(f"""path for: 
 {utils.path_for(linux="linux", macos="MacOS")}
 """)
+
+    res = utils.run(["ls", "-a"], cwd="~/Desktop/")
+    print(f"""run: ls -a
+          {res.stdout} """)
